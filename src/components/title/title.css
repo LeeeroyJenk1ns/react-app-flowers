@@ -1,0 +1,10 @@
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+.title:first-letter {
+    color: rgb(219, 61, 108);
+    letter-spacing: 1px;
+}

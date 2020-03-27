@@ -1,0 +1,22 @@
+.card-style {
+    width: 18rem;
+}
+
+.card-logo {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-padd {
+    margin: 20px;
+    animation: show 0.5s ease 1 alternate forwards;
+}
+
+.no-active {
+    display: none;
+}
+
+@keyframes show {
+    0% {opacity: 0;}
+    100% {opacity: 1; position: relative;}
+}

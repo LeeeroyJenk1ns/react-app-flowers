@@ -1,0 +1,17 @@
+.span-item {
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 400;
+    user-select: none;
+}
+
+.span-item:hover {
+    color: rgb(219, 61, 108);
+}
+
+.select {
+    transition: 0s;
+    color: rgb(219, 61, 108);
+    border-bottom: 1px solid rgb(219, 61, 108);
+}
